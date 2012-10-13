@@ -1,0 +1,96 @@
+
+require "./bin/circunferencia
+require "test/unit"
+ 
+class TestRadio < Test::Unit::TestCase
+ 
+  def test_simple
+
+    assert_in_delta(0.4545474638, Circunferencia.new(2).cal_radio(),0.00001,"Son iguales")
+    assert_in_delta(0.5364637363, Circunferencia.new(3).cal_radio(),0.00001,"Son iguales")
+	
+  end
+
+  def test_typecheck
+
+    assert_raise( RuntimeError) {Circunferencii.new(-1)}
+  end
+
+  def test_failure
+    assert_in_delta(0.4474448, Circunferencia.new(3)cal_radio(),0.00001,"No son iguales")
+
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+PI=3.14
+
+
+
+
+class Circunferencia
+
+	def error_argum(rdio)
+
+		raise 'El argumento no es numerico' unless rdio.is_a?Numeric
+		raise 'El argumento no es numero positivo' unless rdio>0
+	
+	@perimetro=rdio
+	
+	end
+
+	def cal_radio()
+		radio=(perimetro/(2*PI))
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+end										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+				
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
